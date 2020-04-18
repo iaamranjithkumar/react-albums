@@ -1,0 +1,22 @@
+h1, p {
+  font-family: Lato;
+}
+
+.album img{
+height: 200px;
+}
+.album{
+  border:2px black solid;
+  float:left;
+  margin-right:10px;
+}
+.album-container{
+  width:500px;
+  height:220px;
+  display:flex;  
+}
+.album-list{
+  width: 100%;
+  display: flex;
+  overflow: auto;
+}
